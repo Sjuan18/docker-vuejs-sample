@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vuejs-sample
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vuejs-sample
+  template:
+    metadata:
+      labels:
+        app: vuejs-sample
+    spec:
+      containers:
+        - name: vuejs-container
+          image: {DOCKER_USERNAME}/{DOCKERHUB_PROJECT_NAME}:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vuejs-sample-service
+  namespace: default
+spec:
+  type: NodePort
+  selector:
+    app: vuejs-sample
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30001
